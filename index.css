@@ -1,0 +1,144 @@
+body{
+    background-color: #f3f4f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.header{
+    border: 4px solid yellow;
+    background-color: rgb(240, 253, 162);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+   
+}
+.banner__img-hero{
+    padding: 10px; margin: 10px; float: left; width: 250px; 
+}
+.header__menu{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu ul{
+    display: flex;
+}
+.header__menu li{
+    display: inherit;
+}
+.header__menu a{
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header__menu a:hover{
+    background-color: red;
+    color: pink;
+    border-radius: 10px;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.banner{
+    color: black;
+}
+.banner .banner__hero{
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner__text-hero{
+    padding: 80px 0 0 80px;
+    font-family: monospace;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reseña{
+    display: flex;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reseña__box{
+    margin: 15px;
+    box-shadow: 8px 8px 20px 20px  rgb(240, 253, 162);
+    border-radius: 10px;
+    width: 95%;
+}
+.reseña__box img{
+    border-radius: 10px;
+}
+.reseña__card{
+    margin: 1px;
+    padding: 5px;
+    font-family: Georgia;
+    color: #757575;
+}
+
+.title{
+    border-left: 6px solid yellow;
+    border-right: 6px solid yellow;
+    background-color:    rgb(240, 253, 162);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ingredientes{ 
+    display: flex;
+margin: 100px;
+}
+.ingredientes__box{
+    margin: 15px;
+    box-shadow: 8px 8px 20px 20px    rgb(240, 253, 162);
+border-radius: 10px;
+width: 100%;
+font-family: Georgia;
+color: #757575;
+}
+
+.ingredientes__body{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: justify;
+font-family: Georgia;
+color:757575 ;
+
+}
+.procedimiento{ 
+    display: flex;
+margin: 100px;
+}
+.procedimiento__box{
+    margin: 15px;
+    box-shadow: 10px 12px 20px 20px    rgb(240, 253, 162);
+border-radius: 10px;
+font-family: Georgia;
+color: #757575;
+}
+
+.procedimiento__body{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia;
+    color: #757575;
+
+}
+.procedimiento__card{
+    margin: 1px;
+    padding: 5px;
+    font-family: Georgia;
+    color: #757575;
+    text-align: justify;
+}
+.footer{
+    color: black;
+    background-color:   rgb(240, 253, 162);
+}
+.text{
+    font-family: georgia;
+    color: #757575;
+}
